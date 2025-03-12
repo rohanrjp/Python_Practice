@@ -10,7 +10,7 @@ print(s==s[::-1])
 
 s:str = "Was it a car or a cat I saw?"
 
-def is_palindrome(s:str):
+def is_palindrome(s:str)->bool:
     left,right=0,len(s)-1
     while left<right:
         while left<right and s[left].isalnum()!=True:
