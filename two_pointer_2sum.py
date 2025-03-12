@@ -16,13 +16,6 @@ def find_1index(numbers:List[int],target:int)->List[int]:
         
     return []   
                  
-                
-           
-        
-    
-
-
-
 if __name__=="__main__":
     print(find_1index(numbers,target))
     
