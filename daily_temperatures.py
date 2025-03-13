@@ -14,5 +14,5 @@ def get_result(temperatures: list[int])->list[int]:
 
 if __name__=="__main__":
     temperatures:list = [30,38,30,36,35,40,28]
-    print((get_result(temperatures)))
+    print(get_result(temperatures))
     
